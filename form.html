@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		  
+	<head>  
 		  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	</head>
 	<body>
-		<h4>Trip Itinerary</h4>
-		<hr>
+	<header class="header">
+		<h1>Trip Itinerary</h1>
+	</header>
+	<section>
 		<div class="form-data">
-			<form>
-				
-				<label>Location:</label>
+		<table>
+			<tr>
+				<td>
+					<label>Location</label>
+				</td>
+				<td>
 					<div class="inputtextbox">
-					<input type="text" name="location" required="true"/><br>
-				</div>
+					<input type="out" name="local" required="true"/><br>
+					</div>
+				</td>
+			</tr>
 
-				<label>Arrival Date</label>
+			<tr>
+				<td>
+					<label>Arrival Date</label>
+				</td>
+				<td>
 					<div class="inputtextbox">
 					<input type="date" name="arrivaldate" required="true"/><br>
-				</div>
-
-				<label>Arrival Time</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Arrival Time</label>
+				</td>
+				<td>
 					<div class="inputtextbox">
 					<input type="time" name="arrivaltime" required="true"/><br>
-				</div>
-
-				<label>Departure Date</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Departure Date</label>
+				</td>
+				<td>
 					<div class="inputtextbox">
 					<input type="date" name="departuredate"/><br>
-				</div>
-
-				<label>Departure Time</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Departure Time</label>
+				</td>
+				<td>
 					<div class="inputtextbox">
 					<input type="time" name="departuretime"/><br>
-				</div>
-
+					</div>
+				</td>
+			</tr>
+		</table>
 				<div>
-					<button class="submitbtn" style="vertical-align:middle"><span>Submit </span></button>
-				</div>
-
-				<label> Add more </label>
-				<div>
-				<button class="addBtn">
-				</button>
+					<button class="submitbtn" style="vertical-align:middle"><span>Add more </span></button>
 				</div>
 
 				<br>
 			</form>
 		</div>
+		<section>
+		<footer>
+		</footer>
 	</body>	
 <html>

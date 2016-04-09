@@ -32,7 +32,7 @@ html, body {
 }
 
 .form-data{
-  font-size: 15px;
+  font-size: 25px;
   font-family: "Serif";
 
 }
@@ -60,7 +60,7 @@ html, body {
 }
 
 .submitbtn span:after {
-  content: ' >>';
+  content: '+';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -77,12 +77,16 @@ html, body {
   right: 0;
 }
 
-
 .inputtextbox{
-  border-radius: 80%;
-  padding: 5px;
+  border-radius: 80%
+  background-color: red;
 }
 
-.addBtn{
-  background-image: url("img/add-icon.png");
+.header{
+  background-color:#00cc99;
+  font-family: ;
+  font:serif;
+  padding: 5px ;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
